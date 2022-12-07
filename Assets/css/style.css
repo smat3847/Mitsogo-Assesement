@@ -49,7 +49,7 @@ body {
 .dropdownsam {
   position: absolute;
   top: 122%;
-  left: -230px;
+  left: -236px;
   right: 0;
   z-index: 1000;
   display: none;
