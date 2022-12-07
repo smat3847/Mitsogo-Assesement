@@ -12,14 +12,12 @@ body {
 
 .dpdown {
   color: #000;
-  background-color: #ffffff;
   padding-top: px;
   padding-right: 23px;
 }
 
 .dpdown1 {
   color: #000;
-  background-color: #ffffff;
   margin-top: 13px;
   padding-right: 23px;
   font-size: 20px;
@@ -131,16 +129,13 @@ body {
 
 .openbtn {
   font-size: 20px;
-  cursor: pointer;
-  background-color: white;
+  border: 0px;
   color: rgb(0, 0, 0);
-  padding: 10px 15px;
-  border: none;
+  background-color: none;
+  
 }
 
-.openbtn:hover {
-  background-color: white;
-}
+
 
 #main {
   transition: margin-left 0.5s;
