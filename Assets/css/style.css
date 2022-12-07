@@ -161,8 +161,24 @@ body {
   display: inline-block;
 }
 
+tr{
+  border-top: 1px solid #F0F4F7;
+  border-bottom : 1px solid #F0F4F7;
+}
+
+td{
+  color: #4D4F5C;
+}
+
+th{
+  opacity: 80%;
+  font-size: 14px;
+  color: #43425d;
+
+}
+
 .btn {
-  background-color: #6763e3;
+  background-color:  #6763E3;;
   color: white;
   border-radius: 6px;
 }
@@ -213,10 +229,10 @@ body {
 .dp {
   border: 0px;
   color: #4D4F5C;
-  background-color: white;
+  
 }
 
 .headt {
-  font-size: 20px;
+  font-size: 18px;
   color: #4D4F5C;
 }
