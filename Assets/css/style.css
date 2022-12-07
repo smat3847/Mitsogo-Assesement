@@ -48,11 +48,13 @@ body {
 
 .dropdownsam {
   position: absolute;
-  top: 110%;
-  left: -455;
+  top: 122%;
+  left: -262px;
+  right: 0;
   z-index: 1000;
   display: none;
-  min-width: 500px;
+  float: right;
+  width: 321px;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
@@ -61,8 +63,13 @@ body {
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 0.25rem;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
 }
 
 .card-header{
