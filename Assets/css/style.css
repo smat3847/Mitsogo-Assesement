@@ -68,7 +68,8 @@ body {
 }
 
 .card-header{
-  background-color: white;
+  background-color: none;
+ 
 }
 
 .lialign {
