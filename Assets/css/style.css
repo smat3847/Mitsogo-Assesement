@@ -19,7 +19,7 @@ body {
 .dpdown1 {
   color: #000;
   margin-top: 13px;
-  padding-right: 23px;
+  margin-right: 23px;
   font-size: 20px;
 }
 
@@ -64,7 +64,49 @@ body {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0,0,0,.15);
-  border-radius: 0.25rem;
+  border-radius: 12px;
+}
+
+.dropdownsam2 {
+  position: absolute;
+  top: 122%;
+  left: -100px;
+  right: 0;
+  z-index: 1000;
+  display: none;
+  float: right;
+  width: 200px;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 12px;
+}
+
+.dropdownsam3 {
+  position: absolute;
+  top: 122%;
+  left: -148px;
+  right: 0;
+  z-index: 1000;
+  display: none;
+  float: right;
+  width: 200px;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 12px;
 }
 
 
@@ -136,6 +178,7 @@ body {
   border: 0px;
   color: rgb(0, 0, 0);
   background-color: none;
+  margin-bottom: 0px;
   
 }
 
@@ -190,13 +233,15 @@ th{
 .adh {
   font-family: "Hind Vadodara", sans-serif;
   font-size: 18px;
-
+  margin-top: 20px;
   font-weight: bold;
 }
+
 .adp {
   opacity: 50%;
   font-size: 14px;
   color: #43425d;
+  margin-top: 20px;
 }
 
 .column {
@@ -211,11 +256,16 @@ th{
 }
 
 .logo {
-  font-size: 30px;
+  font-size: 22px;
   color: #a4afb7;
   width: 30px;
   display: inline-block;
   margin: 10px;
+}
+
+.logo2 {
+  width: 1000px;
+  
 }
 
 .lf {
@@ -239,4 +289,9 @@ th{
 .headt {
   font-size: 18px;
   color: #4D4F5C;
+}
+
+.cardcss{
+  border-radius: 12px; 
+  
 }
