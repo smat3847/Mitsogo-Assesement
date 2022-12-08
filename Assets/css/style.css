@@ -221,6 +221,7 @@ tr{
 
 td{
   color: #4D4F5C;
+  font-size: 14px;
 }
 
 th{
@@ -247,7 +248,7 @@ th{
   opacity: 50%;
   font-size: 14px;
   color: #43425d;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .column {
@@ -297,7 +298,16 @@ th{
   color: #4D4F5C;
 }
 
+.headt2 {
+  font-size: 14px;
+  color: #4D4F5C;
+}
+
 .cardcss{
   border-radius: 12px; 
   
+}
+
+.icon-bar1{
+  margin-top: -12px;
 }
