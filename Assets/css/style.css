@@ -14,9 +14,27 @@ body {
   color: #000;
   padding-top: px;
   padding-right: 23px;
-  font-size: 20px;
+  font-size: 18px;
+}
+.form-inline .form-control {
+  display: inline-block;
+  width: 257px;
+  vertical-align: middle;
+  border: 0px;
+  margin-top: -15px;
 }
 
+
+
+
+@media (min-width: 992px) {
+.less {
+  display:none;
+}
+
+
+
+}
 .dpdown1 {
   color: #000;
   margin-top: 13px;
@@ -178,6 +196,8 @@ body {
   display: block;
   transition: 0.3s;
 }
+
+
 
 .openbtn {
   font-size: 20px;
