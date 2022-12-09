@@ -2,6 +2,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   background-color: #0000001a;
 }
+
 .container {
   max-width: 98%;
 }
@@ -16,6 +17,7 @@ body {
   padding-right: 23px;
   font-size: 18px;
 }
+
 .form-inline .form-control {
   display: inline-block;
   width: 257px;
@@ -28,13 +30,14 @@ body {
 
 
 @media (min-width: 992px) {
-.less {
-  display:none;
-}
+  .less {
+    display: none;
+  }
 
 
 
 }
+
 .dpdown1 {
   color: #000;
   margin-top: 13px;
@@ -42,7 +45,7 @@ body {
   font-size: 20px;
 }
 
-.mainpro{
+.mainpro {
   margin-top: -8px;
 }
 
@@ -56,14 +59,15 @@ body {
 }
 
 .dpdown :hover {
- 
+
   text-decoration: none;
 }
 
 .navbar {
   height: 60px;
   /* border-radius: 25px 0px 0px 0px;
- */}
+ */
+}
 
 .bellico {
   padding-top: 23px;
@@ -87,7 +91,7 @@ body {
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid rgba(0,0,0,.15);
+  border: 1px solid rgba(0, 0, 0, .15);
   border-radius: 12px;
 }
 
@@ -108,7 +112,7 @@ body {
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid rgba(0,0,0,.15);
+  border: 1px solid rgba(0, 0, 0, .15);
   border-radius: 12px;
 }
 
@@ -129,15 +133,15 @@ body {
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid rgba(0,0,0,.15);
+  border: 1px solid rgba(0, 0, 0, .15);
   border-radius: 12px;
 }
 
 
 
-.card-header{
+.card-header {
   background-color: none;
- 
+
 }
 
 .lialign {
@@ -154,6 +158,7 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 .sidebar {
   height: 100%;
   width: 0;
@@ -205,7 +210,7 @@ body {
   color: rgb(0, 0, 0);
   background-color: none;
   margin-bottom: 0px;
-  
+
 }
 
 
@@ -219,6 +224,7 @@ body {
   .sidebar {
     padding-top: 15px;
   }
+
   .sidebar a {
     font-size: 18px;
   }
@@ -230,18 +236,19 @@ body {
   white-space: nowrap;
   overflow-x: auto;
 }
+
 .child {
   display: inline-block;
 }
 
 
 
-td{
+td {
   color: #4D4F5C;
   font-size: 14px;
 }
 
-th{
+th {
   opacity: 80%;
   font-size: 14px;
   color: #43425d;
@@ -250,11 +257,14 @@ th{
 }
 
 .btn {
-  background-color:  #6763E3;;
+  background-color: #6763E3;
+  ;
   color: white;
   border-radius: 6px;
 }
-.table td, .table th {
+
+.table td,
+.table th {
   padding: 0.75rem;
   vertical-align: top;
   border-top: 0px solid #dee2e6;
@@ -264,10 +274,11 @@ th{
   vertical-align: bottom;
   border-bottom: 0px solid #dee2e6;
 }
+
 .adh {
   font-family: "Hind Vadodara", sans-serif;
   font-size: 18px;
-  margin-top: 20px;
+  margin-top: -27px;
   font-weight: bold;
 }
 
@@ -290,7 +301,7 @@ th{
 }
 
 .logo {
-  font-size: 22px;
+  font-size: 25px;
   color: #a4afb7;
   width: 30px;
   display: inline-block;
@@ -299,7 +310,7 @@ th{
 
 .logo2 {
   width: 1000px;
-  
+
 }
 
 .lf {
@@ -317,7 +328,7 @@ th{
 .dp {
   border: 0px;
   color: #4D4F5C;
-  
+
 }
 
 .headt {
@@ -330,11 +341,27 @@ th{
   color: #4D4F5C;
 }
 
-.cardcss{
-  border-radius: 12px; 
-  
+.cardcss {
+  border-radius: 12px;
+
 }
 
-.icon-bar1{
+.icon-bar1 {
   margin-top: -12px;
+}
+
+.logo4 {
+
+
+  left: 51%;
+  color: white;
+  background-color: #8f17d9;
+  padding: 5px;
+
+  top: 12%;
+  border: 3px solid white;
+  border-radius: 50%;
+  font-size: 10px;
+  position: absolute;
+
 }
